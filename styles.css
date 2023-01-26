@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    align-self: center;
+}
+
+input::placeholder {
+    align-self: auto;
+}
+
+input {
+    flex: content;
+    align-items: center;
+    justify-items: center;
+}
+
+#inputId {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.time {
+    font-size: 250%;
+    font-weight: 800;
+}
